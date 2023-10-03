@@ -79,6 +79,39 @@ nav a {
     background-color: #0056b3;
 }
 
+/* Text Section */
+.main-banner-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    padding: 60px 0; /* Adjust the padding to your preference */
+}
+
+.main-banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.main-banner-text p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.main-banner-text .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-banner-text .cta-button:hover {
+    background-color: #0056b3;
+}
+
 /* Service section styles */
 .service {
     padding: 40px;
